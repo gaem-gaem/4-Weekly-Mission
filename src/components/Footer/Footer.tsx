@@ -17,8 +17,8 @@ const Footer = () => {
           <p className={`font-16-regular ${S.centerText}`}>FAQ</p>
         </div>
         <div className={S.iconContainer}>
-          {SNS_IMAGES.map((image) => (
-            <img src={image} alt="sns 아이콘" />
+          {SNS_IMAGES.map((image, index) => (
+            <img key={index} src={image} alt="sns 아이콘" />
           ))}
         </div>
       </section>
