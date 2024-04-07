@@ -2,12 +2,7 @@ import { useEffect, useState } from "react";
 import S from "./NavigationBar.module.css";
 import { sampleUserData } from "../../api/api";
 import LoginButton from "@components/Button/LoginButton";
-
-interface SampleUser {
-  name: string;
-  email: string;
-  profileImageSource: string;
-}
+import { SampleUser } from "@src/type/type";
 
 const NavigationBar = () => {
   const [isMobile, setIsMobile] = useState(false);

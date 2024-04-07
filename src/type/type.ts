@@ -20,15 +20,8 @@ export interface SampleFolder {
   };
 }
 
-// export interface Card extends SampleFolder {
-//   links: [
-//     {
-//       id: number;
-//       createAt: string;
-//       url: string;
-//       title: string;
-//       description: string;
-//       imageSource: string;
-//     }
-//   ];
-// }
+export interface SampleUser {
+  name: string;
+  email: string;
+  profileImageSource: string;
+}
