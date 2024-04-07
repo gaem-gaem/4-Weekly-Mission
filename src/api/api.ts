@@ -14,6 +14,6 @@ export const sampleUserData = () => {
   return getAPI("/api/sample/user");
 };
 
-export const getSampleData = () => {
+export const sampleFolderData = () => {
   return getAPI("/api/sample/folder");
 };

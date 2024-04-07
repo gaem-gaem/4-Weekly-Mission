@@ -1,8 +1,11 @@
 .hero {
+  margin: 2rem auto 6rem;
+}
+
+.heroContainer {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 2rem auto 6rem;
 }
 
 .userProfileImg {
@@ -12,4 +15,15 @@
 
 .userName {
   margin: 1.2rem 0 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .userProfileImg {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .userName {
+    font-size: 1.4rem;
+  }
 }

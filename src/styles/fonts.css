@@ -81,6 +81,15 @@
   line-height: normal; /* 142.857% */
 }
 
+.font-32-bold {
+  /* Font/40 bold */
+  font-family: "Pretend";
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; /* 142.857% */
+}
+
 .font-40-bold {
   /* Font/40 bold */
   font-family: "Pretend";

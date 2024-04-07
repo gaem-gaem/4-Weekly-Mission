@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./LoginButton.module.css";
 
 const LoginButton = () => {
-  const [fontSizeClass, setFontSizeClass] = useState("");
+  const [fontSizeClass, setFontSizeClass] = useState("font-18-bold");
 
   useEffect(() => {
     const handleResize = () => {

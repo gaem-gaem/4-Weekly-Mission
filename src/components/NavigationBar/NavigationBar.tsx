@@ -34,8 +34,6 @@ const NavigationBar = () => {
     fetchData();
   }, []);
 
-  console.log(sampleUser);
-
   return (
     <nav className={S.navigationBar}>
       <section className={S.navigationBarContainer}>
