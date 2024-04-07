@@ -62,16 +62,18 @@ const Card = () => {
       {card &&
         card.folder.links.map((link) => (
           <Link key={link.id} to={link.url} className={S.card} target="_blank">
-            <img
-              className={S.cardImage}
-              src={
-                link.imageSource
-                  ? link.imageSource
-                  : "/public/assets/images/card-default.png"
-              }
-              onError={srcError}
-              alt="카드 이미지"
-            />
+            <div className={S.cardImageContainer}>
+              <img
+                className={S.cardImage}
+                src={
+                  link.imageSource
+                    ? link.imageSource
+                    : "/public/assets/images/card-default.png"
+                }
+                onError={srcError}
+                alt="카드 이미지"
+              />
+            </div>
             <div className={S.descriptionContainer}>
               <p className={`font-13-regular ${S.cardMinutesAgo}`}>
                 {displayCreateAt(link.createdAt)}
