@@ -54,6 +54,15 @@
   line-height: normal; /* 142.857% */
 }
 
+.font-14-bold {
+  /* Font/14 bold */
+  font-family: "Pretend";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; /* 142.857% */
+}
+
 .font-16-regular {
   /* Font/16 Regular */
   font-family: "Pretend";
@@ -63,8 +72,17 @@
   line-height: 2.4rem; /* 142.857% */
 }
 
-.font-40-regular {
-  /* Font/14 Regular */
+.font-18-bold {
+  /* Font/18 bold */
+  font-family: "Pretend";
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; /* 142.857% */
+}
+
+.font-40-bold {
+  /* Font/40 bold */
   font-family: "Pretend";
   font-size: 4rem;
   font-style: normal;

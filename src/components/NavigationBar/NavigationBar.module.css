@@ -1,8 +1,18 @@
 .navigationBar {
   display: flex;
+  justify-content: center;
+  background-color: var(--color-bg);
+  height: 9.3rem;
+}
+
+.navigationBarContainer {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 3.3rem 20rem;
-  width: 144rem;
+  min-width: 144rem;
+  height: auto;
+  margin: 0 3.2rem;
+  padding: 3.2rem 20rem;
 }
 
 .logo {
@@ -19,4 +29,23 @@
 .profileImg {
   width: 2.8rem;
   height: 2.8rem;
+}
+
+@media screen and (max-width: 1123px) {
+  .navigationBarContainer {
+    min-width: 100%;
+    padding: 0 3.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigationBarContainer {
+    width: auto;
+    height: 6.3rem;
+  }
+
+  .logo {
+    width: 8.8rem;
+    height: 1.8rem;
+  }
 }

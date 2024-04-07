@@ -1,20 +1,17 @@
-import NavigationBar from "@components/NavigationBar/NavigationBar";
 import Hero from "./components/Hero/Hero";
 import S from "./Shared.module.css";
 import Card from "@components/Card/Card";
-import Footer from "@components/Footer/Footer";
 
 const Folder = () => {
   return (
-    <>
+    <div>
       <section className={S.headerContainer}>
-        <NavigationBar />
         <Hero />
       </section>
-      <main>
+      <main className={S.container}>
         <form>
           <input
-            className={S.input}
+            className={S.searchInput}
             type="text"
             placeholder="링크를 검색해보세요"
           />
@@ -26,10 +23,7 @@ const Folder = () => {
         </form>
         <Card />
       </main>
-      <section className={S.footerContainer}>
-        <Footer />
-      </section>
-    </>
+    </div>
   );
 };
 
