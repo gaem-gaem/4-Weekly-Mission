@@ -22,8 +22,9 @@
     "outDir": "dist",
     "moduleDetection": "force",
 
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
+      "@/*": ["*"],
       "@components/*": ["src/components/*"]
     }
   },
