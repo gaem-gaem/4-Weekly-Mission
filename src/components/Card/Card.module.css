@@ -17,8 +17,8 @@
 .cardImage {
   width: 100%;
   height: 19.9rem;
-  background-color: antiquewhite;
   border-radius: 1.5rem 1.5rem 0 0;
+  object-fit: cover;
 }
 
 .descriptionContainer {
@@ -30,6 +30,14 @@
 
 .cardMinutesAgo {
   color: #666;
+}
+
+.cardText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .cardCreatedAt {

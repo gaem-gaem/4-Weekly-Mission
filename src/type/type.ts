@@ -1,4 +1,4 @@
-interface SampleFolder {
+export interface SampleFolder {
   folder: {
     id: string;
     name: string;
@@ -7,7 +7,28 @@ interface SampleFolder {
       name: string;
       profileImageSource: string;
     };
+    links: [
+      {
+        id: number;
+        createdAt: string;
+        url: string;
+        title: string;
+        description: string;
+        imageSource: string;
+      }
+    ];
   };
 }
 
-export default SampleFolder;
+// export interface Card extends SampleFolder {
+//   links: [
+//     {
+//       id: number;
+//       createAt: string;
+//       url: string;
+//       title: string;
+//       description: string;
+//       imageSource: string;
+//     }
+//   ];
+// }
