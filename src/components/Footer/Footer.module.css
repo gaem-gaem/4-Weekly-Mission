@@ -39,3 +39,27 @@ footer {
   width: 2rem;
   height: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .footerContainer {
+    flex-wrap: wrap;
+    padding: 3.2rem;
+    justify-content: space-between;
+  }
+
+  .text {
+    display: flex;
+    order: 3;
+    align-items: end;
+  }
+
+  .centerText {
+    color: #cfcfcf;
+  }
+
+  .iconContainer {
+    display: flex;
+    justify-content: end;
+    flex-basis: 50%;
+  }
+}
