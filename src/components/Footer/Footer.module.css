@@ -42,15 +42,15 @@ footer {
 
 @media screen and (max-width: 768px) {
   .footerContainer {
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 3.2rem;
-    justify-content: space-between;
   }
 
   .text {
     display: flex;
-    order: 3;
     align-items: end;
+    order: 3;
   }
 
   .centerText {
