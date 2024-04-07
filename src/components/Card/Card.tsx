@@ -32,6 +32,7 @@ const Card = () => {
     e.currentTarget.src = "/public/assets/images/card-default.png";
   };
 
+  // 얼마 전에 만들었는지 알려주는 함수
   const displayCreateAt = (createdAt: string) => {
     const date = new Date(createdAt);
     const now = Date.now();

@@ -4,6 +4,7 @@ import "./LoginButton.module.css";
 const LoginButton = () => {
   const [fontSizeClass, setFontSizeClass] = useState("font-18-bold");
 
+  // button 텍스트 반응형 클래스로 적용
   useEffect(() => {
     const handleResize = () => {
       setFontSizeClass(

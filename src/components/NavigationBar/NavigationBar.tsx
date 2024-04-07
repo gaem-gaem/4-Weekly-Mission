@@ -10,6 +10,7 @@ const NavigationBar = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [sampleUser, setSampleUser] = useState<SampleUser>();
 
+  // 모바일 크기에서 email 안보이게 하려고
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);

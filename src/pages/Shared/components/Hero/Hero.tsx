@@ -7,10 +7,12 @@ import { SampleFolder } from "@src/type/type";
 
 const Hero = () => {
   const [sampleFolder, setSampleFolder] = useState<SampleFolder>();
+  // 창 크기 바뀌기 전에는 아무 클래스도 적용 안되어 있어서 기본 값으로 적용
   const [userNameFontSizeClass, setUserNameFontSizeClass] =
     useState("font-16-regular");
   const [nameFontSizeClass, setNameFontSizeClass] = useState("font-40-bold");
 
+  // 텍스트 반응형 클래스로 적용
   useEffect(() => {
     const handleResize = () => {
       setUserNameFontSizeClass(
