@@ -1,18 +1,7 @@
 import { useEffect, useState } from "react";
 import S from "./Hero.module.css";
 import { sampleFolderData } from "../../../../api/api";
-
-interface SampleFolder {
-  folder: {
-    id: string;
-    name: string;
-    owner: {
-      id: number;
-      name: string;
-      profileImageSource: string;
-    };
-  };
-}
+import SampleFolder from "src/type/type";
 
 const Hero = () => {
   const [sampleFolder, setSampleFolder] = useState<SampleFolder>();
