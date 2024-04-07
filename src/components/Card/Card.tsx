@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
-import S from "./Card.module.css";
-import { sampleFolderData } from "../../api/api";
-import { SampleFolder } from "../../type/type";
 import { Link } from "react-router-dom";
+
+import S from "./Card.module.css";
+
+import { sampleFolderData } from "@src/api/api";
+import { SampleFolder } from "@src/type/type";
 
 const Card = () => {
   const [card, setCard] = useState<SampleFolder>();

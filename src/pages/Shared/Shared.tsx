@@ -1,5 +1,6 @@
-import Hero from "./components/Hero/Hero";
 import S from "./Shared.module.css";
+
+import Hero from "./components/Hero/Hero";
 import Card from "@components/Card/Card";
 
 const Folder = () => {

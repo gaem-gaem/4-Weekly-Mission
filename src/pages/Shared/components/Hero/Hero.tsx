@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+
 import S from "./Hero.module.css";
-import { sampleFolderData } from "../../../../api/api";
-import { SampleFolder } from "../../../../type/type";
+
+import { sampleFolderData } from "@src/api/api";
+import { SampleFolder } from "@src/type/type";
 
 const Hero = () => {
   const [sampleFolder, setSampleFolder] = useState<SampleFolder>();
